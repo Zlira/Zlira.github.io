@@ -1,24 +1,36 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Брехлива правда в JS"
 date:   2014-08-11 22:07:32
-categories: jekyll update
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Жабоскрипт має якийсь цікавий спосіб перетворення різних типів у булеві значення.
+Цікавість полягає у тому, що всі об'єкти завжди обов'язково перетворюються у `True`.
+Тому:
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight javascript %}
+> Boolean('');
+false
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+а
+{% highlight javascript %}
+> Boolean([]);
+true
+{% endhighlight %}
 
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
+Хоча, це ще не цікаво, цікавіше от що:
+
+{% highlight javascript %}
+> var lie = new Boolean(false);
+undefined
+> lie
+false
+> Boolean(lie)
+true
+> if (lie) {console.log("truthy lie")};
+undefined
+"truthy lie"
+{% endhighlight %}
+
+Звичайно, не слід користуватись об'єктом `Boolean` але все одно це якось по-наркоманськи. 
