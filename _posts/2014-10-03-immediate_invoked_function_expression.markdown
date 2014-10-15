@@ -4,7 +4,7 @@ title:  "Immediately-Invoked Function Expression"
 date:   2014-10-04 12:37:32
 ---
 
-Тепер про дещо приємніші речі в жабоскрипті. Наприклад, посписую з бложиків інших людей про
+Тепер про дещо приємніші речі в js. Наприклад, посписую з бложиків інших людей про
 immediately invoked function expressions і паттерн модуль. Спершу про перше.
 
 Значить, є дві окремі штуки: декларація функції [fucntion declaration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function):
