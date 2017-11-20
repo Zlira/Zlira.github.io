@@ -1,0 +1,180 @@
+svg text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 12px;
+}
+
+#content {
+    font-family: "PT Sans", sans-serif;
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #1a1a1a;
+}
+
+p {
+    line-height: 150%;
+}
+
+input {
+    width: 70px;
+}
+
+input, #user-protein {
+    color: black;
+    font-weight: bold;
+}
+
+svg {
+    display: block;
+}
+
+svg .hidden {
+    display: none;
+}
+
+svg .unemph-line, .step-circle {
+    stroke: #999;
+    fill: white;
+}
+
+svg .unemph-filled {
+    fill: #999;
+    stroke: none;
+}
+
+/* yaxis ticks */
+svg #yaxis-container g:first-of-type text {
+    transform: translate(0px, -4px);
+}
+
+svg #yaxis-container g:last-of-type text {
+    transform: translate(0px, 4px);
+}
+
+svg #requirements-line {
+    stroke: #127394;
+    stroke-dasharray: 2, 2;
+}
+
+svg #requirements-text {
+    fill: #127394;
+}
+
+svg #hundred-percent {
+    fill: #127394;
+    font-weight: bold;
+}
+
+svg .eat-btn-text {
+    font-size: 14px;
+    font-weight: bold;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+    cursor: pointer;
+}
+
+#meat svg .eat-btn-text {
+    fill: #f2226e;
+}
+
+#broccoli svg .eat-btn-text {
+    fill: #3e9f17;
+}
+
+svg .eat-btn {
+    fill: white;
+    stroke-width: 2;
+    cursor: pointer;
+}
+
+#meat svg .eat-btn {
+    stroke: #f2226e;
+}
+
+#broccoli svg .eat-btn {
+    stroke: #3e9f17;
+}
+
+#meat .bckgr-rect {
+    fill: #ffb3b3;
+}
+
+#broccoli .bckgr-rect {
+    fill: #bdf296;
+}
+
+.tail-label {
+    font-size: 10px;
+    font-weight: bold;
+    filter: url(#textBackGr);
+}
+
+svg.peity {
+    display: inline;
+}
+
+svg.peity rect {
+    fill: #3e9f17;
+}
+
+svg.peity rect:first-child {
+    fill: #f2226e;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+svg polygon.not-enough-prot {
+    fill: grey;
+    fill-opacity: .2;
+}
+
+svg line.not-enough-prot {
+    stroke: grey;
+    stroke-width: .3;
+}
+
+
+svg #all-food-header text {
+    fill: #666;
+}
+
+svg .plot-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+svg .plot-subheader {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+svg .plot-explanation {
+    font-size: 13px;
+}
+
+p.justificaion {
+    font-style: italic;
+    margin-top: 30px;
+    color: #666;
+}
+
+#footer {
+    margin-top: 50px;
+}
+
+text.section-label {
+    font-size: 13px;
+    fill: #1a1a1a;
+}
+
+text.food-combine {
+    font-size: 10px;
+    fill: #1a1a1a;
+}
