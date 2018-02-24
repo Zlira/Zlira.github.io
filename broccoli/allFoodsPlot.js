@@ -197,14 +197,14 @@ function allFoods() {
         let nepCount = data.filter(d => d.gForProt > d.gForEnergy).length;
         //createSectionLabel(textEl, firstLineText, secondLine, color
         createSectionLabel(nepText, 'Продукти, з яких не можна отримати', [
-            'достатньо білка не переївшися (', nepCount, ')'
+            'достатньо білка не переївшися (', nepCount, ' шт.)'
         ], 'teal')
         let epText = plot.append('text')
                          .attr('x', xScale(5200))
                          .attr('class', 'section-label')
                          .attr('y', yScale(800));
         createSectionLabel(epText, 'Продукти, якими не можна переїстися', [
-            'не отримавши достатньо білка (', data.length - nepCount, ')'
+            'не отримавши достатньо білка (', data.length - nepCount, ' шт.)'
         ], '#ff6600')
 
         // dots
