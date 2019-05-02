@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/soma-calendar/precache-manifest.c7e8bb16c99d94192e39cd526710b6f5.js"
+  "/soma-calendar/precache-manifest.d806e6778d23a3ba4351bbab66a95fb5.js"
 );
 
 workbox.clientsClaim();
