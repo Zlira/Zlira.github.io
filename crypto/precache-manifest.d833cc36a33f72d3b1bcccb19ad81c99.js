@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "c95c639f47675a8cb180",
+    "revision": "234a87823a1a50bacd17",
     "url": "/crypto/static/css/main.62690fd5.chunk.css"
   },
   {
-    "revision": "c95c639f47675a8cb180",
-    "url": "/crypto/static/js/main.c95c639f.chunk.js"
+    "revision": "234a87823a1a50bacd17",
+    "url": "/crypto/static/js/main.234a8782.chunk.js"
   },
   {
     "revision": "6a7279e95c03d39ac973",
     "url": "/crypto/static/js/runtime~main.6a7279e9.js"
   },
   {
-    "revision": "312b6e46be3f487f0493",
-    "url": "/crypto/static/js/2.312b6e46.chunk.js"
+    "revision": "99f19cc109080cef764f",
+    "url": "/crypto/static/js/2.99f19cc1.chunk.js"
   },
   {
     "revision": "a3886b52571cff116464bce762913dc9",
@@ -36,19 +36,19 @@ self.__precacheManifest = [
     "url": "/crypto/static/media/katherine_ferdinand.098ae7ee.png"
   },
   {
-    "revision": "3468c9c1eca4e1901db98beff096f0d2",
-    "url": "/crypto/static/media/arrow_back.3468c9c1.svg"
-  },
-  {
     "revision": "b2096af92ecdd40feabc6b0d09523844",
     "url": "/crypto/static/media/arrow_forward.b2096af9.svg"
+  },
+  {
+    "revision": "3468c9c1eca4e1901db98beff096f0d2",
+    "url": "/crypto/static/media/arrow_back.3468c9c1.svg"
   },
   {
     "revision": "9e35e142413ffc3dc4e3421b90b6938f",
     "url": "/crypto/static/media/baseline-search-24px.9e35e142.svg"
   },
   {
-    "revision": "848c53f54010ce6ef82dd8d03500ef07",
+    "revision": "2ba9833c99f37d86ee27ae2e1044325e",
     "url": "/crypto/index.html"
   }
 ];
