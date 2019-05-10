@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "234a87823a1a50bacd17",
-    "url": "/crypto/static/css/main.62690fd5.chunk.css"
+    "revision": "6e0d38bda9d0c139defe",
+    "url": "/crypto/static/css/main.fbed124d.chunk.css"
   },
   {
-    "revision": "234a87823a1a50bacd17",
-    "url": "/crypto/static/js/main.234a8782.chunk.js"
+    "revision": "6e0d38bda9d0c139defe",
+    "url": "/crypto/static/js/main.6e0d38bd.chunk.js"
   },
   {
     "revision": "6a7279e95c03d39ac973",
     "url": "/crypto/static/js/runtime~main.6a7279e9.js"
   },
   {
-    "revision": "99f19cc109080cef764f",
-    "url": "/crypto/static/js/2.99f19cc1.chunk.js"
+    "revision": "ab74d6fa24f93458b17e",
+    "url": "/crypto/static/js/2.ab74d6fa.chunk.js"
   },
   {
     "revision": "a3886b52571cff116464bce762913dc9",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/crypto/static/media/baseline-search-24px.9e35e142.svg"
   },
   {
-    "revision": "2ba9833c99f37d86ee27ae2e1044325e",
+    "revision": "1c90c87accf74170da8fa61d1b34875a",
     "url": "/crypto/index.html"
   }
 ];
