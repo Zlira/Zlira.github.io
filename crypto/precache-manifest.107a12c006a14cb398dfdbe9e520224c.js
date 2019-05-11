@@ -36,19 +36,19 @@ self.__precacheManifest = [
     "url": "/crypto/static/media/katherine_ferdinand.098ae7ee.png"
   },
   {
-    "revision": "b2096af92ecdd40feabc6b0d09523844",
-    "url": "/crypto/static/media/arrow_forward.b2096af9.svg"
-  },
-  {
     "revision": "3468c9c1eca4e1901db98beff096f0d2",
     "url": "/crypto/static/media/arrow_back.3468c9c1.svg"
+  },
+  {
+    "revision": "b2096af92ecdd40feabc6b0d09523844",
+    "url": "/crypto/static/media/arrow_forward.b2096af9.svg"
   },
   {
     "revision": "9e35e142413ffc3dc4e3421b90b6938f",
     "url": "/crypto/static/media/baseline-search-24px.9e35e142.svg"
   },
   {
-    "revision": "1c90c87accf74170da8fa61d1b34875a",
+    "revision": "295e409ce3be2bbf010668b50a017687",
     "url": "/crypto/index.html"
   }
 ];
