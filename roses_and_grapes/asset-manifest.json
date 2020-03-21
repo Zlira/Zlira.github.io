@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.09345188.chunk.css",
+    "main.js": "/static/js/main.89387095.chunk.js",
+    "main.js.map": "/static/js/main.89387095.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9af40084.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9af40084.js.map",
+    "static/js/2.f9c8028a.chunk.js": "/static/js/2.f9c8028a.chunk.js",
+    "static/js/2.f9c8028a.chunk.js.map": "/static/js/2.f9c8028a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.52135ba784271b61adfdfe5ee68627fa.js": "/precache-manifest.52135ba784271b61adfdfe5ee68627fa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.09345188.chunk.css.map": "/static/css/main.09345188.chunk.css.map",
+    "static/js/2.f9c8028a.chunk.js.LICENSE.txt": "/static/js/2.f9c8028a.chunk.js.LICENSE.txt",
+    "static/media/de.mp3": "/static/media/de.77dafde7.mp3",
+    "static/media/disappointing.jpg": "/static/media/disappointing.36dc4a0c.jpg",
+    "static/media/en.mp3": "/static/media/en.93c23d87.mp3",
+    "static/media/es.mp3": "/static/media/es.3218c6c1.mp3",
+    "static/media/fr.mp3": "/static/media/fr.6193df63.mp3",
+    "static/media/good.jpg": "/static/media/good.fc169fbe.jpg",
+    "static/media/horrible.jpg": "/static/media/horrible.7162ebee.jpg",
+    "static/media/ja.mp3": "/static/media/ja.f873de71.mp3",
+    "static/media/perfect.jpg": "/static/media/perfect.0c32932b.jpg",
+    "static/media/ru.mp3": "/static/media/ru.95824f6a.mp3",
+    "static/media/sv.mp3": "/static/media/sv.c2c74f8d.mp3",
+    "static/media/uk.mp3": "/static/media/uk.a641dfd1.mp3",
+    "static/media/zh.mp3": "/static/media/zh.8200a15b.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9af40084.js",
+    "static/js/2.f9c8028a.chunk.js",
+    "static/css/main.09345188.chunk.css",
+    "static/js/main.89387095.chunk.js"
+  ]
+}
